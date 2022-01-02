@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="fonts.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
     <link  rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -141,21 +141,25 @@
             </div>
             <div class="exp3">
                 <div class="ex3d1">
-                    <p class="ex3d1p1">GREEN LEAF RESTRO </p>
+                    <p class="ex3d1p1" style="text-align: center;">GREEN LEAF RESTRO </p>
+                    <div class="flfix1">
                     <P class="ex3d1p2" ><i style="color: #04aa6d;padding-right: 15px;" class="fa">&#xf041;</i> Lorem ipsum dolor sit amet.</P>
                     <p class="ex3d1p2"><a class="ex3d1a1" href="tel:5554280940"><i style="color: #04aa6d;padding-right: 15px;"  class="fa">&#xf095;</i>  +91 7016896136</a></p>
                     <p class="ex3d1p2"><a class="ex3d1a2" href="mailto:devanggandhi2222@gmail.com"><i style="color: #04aa6d;padding-right: 15px;" class="fa">&#xf0e0;</i> devanggandhi2222@gmail.com</a></p>
+                    </div>
                 </div>
                 <div class="ex3d2">
-                    <p class="ex3d2p1">FOLLOW US</p>
+                    <p class="ex3d2p1" style="text-align: center;">FOLLOW US</p>
+                    <div class="flflex">
                     <p class="ex3d2p2"><a class="ex3d2a2" href="#"><i  style="color: #04aa6d;padding-right: 15px;" class="fa">&#xf09a;</i> Facebook</a></p>
                     <p class="ex3d2p2"><a class="ex3d2a2" href="#"><i  style="color: #04aa6d;padding-right: 15px;" class="fa">&#xf16d;</i> Instagram</a></p>
                     <p class="ex3d2p2"><a class="ex3d2a2" href="#"><i  style="color: #04aa6d;padding-right: 15px;" class="fa">&#xf16a;</i> YouTube</a></p>
+                    </div>
                 </div>
                 <div class="ex3d3">
                     <div><p class="ex3d3p1">NEWSLETTER</p></div>
                     <div><p class="ex3d3p2">we send you latest offers and news once a week</p></div>
-                    <div> 
+                    <div  style="display: flex;align-items: center;flex-direction: column;"> 
                         <form action="/action_page.php">
                             <label for="email"></label>
                             <input class="email" required  type="text" placeholder="email address*" id="email" name="email"><br><br>
@@ -168,12 +172,22 @@
                 </div>            
             </div>
             </div>
-            <div id="menubar" onclick="myFunction3()" class="menu">
+            
+            <div id="menu" class="menu">
+                    <ul class="menuul">
+                        <li class="menuli"><a class="menuaf" href="#">HOME</a></li>
+                        <li class="menuli"><a class="menuaf" href="#">ROOMS</a></li>
+                        <li class="menuli"><a class="menuaf" href="#">GALLERY</a></li>
+                        <li class="menuli"><a class="menuaf" href="#">EVENTS</a></li>
+                        <li class="menuli"><a class="menuaf" href="#">ABOUT</a></li>
+                        <li class="menuli"><a class="menuaf" href="#">CONTACT</a></li>                        
+                    </ul>       
+            </div>
+            <div id="menubar" onclick="myFunction3()" class="menubar">
                 <div id="mn1" class="menuspan"></div>
                 <div id="mn2" class="menuspan"></div>
                 <div id="mn3" class="menuspan"></div>
             </div>
-           
     </body>
     <script src="index.js"></script> <script src="index.js"></script>
     <footer style="height: 40px;text-align: center;font-size: 18px;padding-top: 20px;font-weight: 600;">&copy;Copyright 2021 All Rights Reserved. <a style="text-decoration: none;color: #04aa6d;" href="https://www.learnovateecommerce.com/">Learnovate Ecommerce</a> Made By Devang Gandhi</footer>
