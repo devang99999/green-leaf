@@ -29,17 +29,8 @@ function myFunction() {
 	}
   }
   function myFunction3() {
-	var dots = document.getElementById("mn1");
-	var moreText = document.getElementById("mn2");
-	var btnText = document.getElementById("mn3");
-  
-	if (dots.style.display === "none") {
-	  dots.style.display = "inline";
-	  btnText.innerHTML = "Read more"; 
-	  moreText.style.display = "none";
-	} else {
-	  dots.style.display = "none";
-	  btnText.innerHTML = "Read less"; 
-	  moreText.style.display = "inline";
-	}
+	  document.getElementById("mn1").classList.toggle("cross1")
+	  document.getElementById("mn2").classList.toggle("cross2")
+	  document.getElementById("mn3").classList.toggle("cross3")
+	  document.getElementById("menu").classList.toggle("menudisp")
   }
